@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 15px;
+}
+.main__body{
+    font-family: lexend deca,inter;
+    
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+
+.card__container img{
+    width: 400px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card__container{
+    /* width: 600px; */
+    display: flex;
+    flex-direction: row-reverse;
+    /* width: 1200px; */
+    
+}
+
+.card__details{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    padding: 40px;
+    background-color: hsl(244, 38%, 16%);
+justify-content: center;
+    align-items: center;
+
+}
+.card__details h1{
+    color: white;
+    padding-bottom: 15px;
+}
+.card__details p{
+    padding-bottom: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 22px;
+}
+.card__details .type{
+    color: hsl(277, 64%, 61%);
+}
+.card__details .stats__box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.stats{
+    color: white;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.stats__box .stats .stat__values{
+    padding-top: 10px;
+    
+    color: hsla(0, 0%, 100%, 0.6);
+
+}
